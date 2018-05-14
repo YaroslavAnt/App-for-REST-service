@@ -1,0 +1,67 @@
+body {
+    font-family: 'Slabo 27px', serif;
+    background: #eef7ff;
+    padding: 100px;
+}
+
+.input {
+    border: solid gray 2px;
+    width: 300px;
+    border-radius: 5px;
+    padding: 0;
+    margin: 50px auto;
+    position: relative;
+    overflow: hidden;
+}
+
+input {
+    width: 100%;
+    border: none;
+    padding: 5px;
+    font-size: 25px;
+}
+
+#btn {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 20%;
+    border: none;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    table-layout: fixed;
+}
+
+tr:nth-child(4n+2), tr:nth-child(4n+3) {
+    background: #ccdff0;
+}
+
+td {
+    padding: 10px;
+    font-size: 14px;
+}
+
+td:last-child {
+    text-align: right;
+    width: 10%;
+    font-size: 20px;
+}
+
+img {
+    width: 100%;
+}
+
+.hidden {
+    display: none;
+}
+
+h2 {
+    padding: 0;
+    margin: 0;
+    color: #777;
+    font-weight: normal;
+}
